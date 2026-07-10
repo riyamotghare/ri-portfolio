@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #070b14;
+  color: #edeff5;
+  font-family: var(--font-inter), system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(212, 175, 100, 0.35);
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #070b14;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #d4af64, #a8813f);
+  border-radius: 8px;
+}
+
+.text-gradient-gold {
+  background: linear-gradient(135deg, #e8ce97 0%, #d4af64 50%, #a8813f 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.section-heading-number {
+  font-family: var(--font-jetbrains), monospace;
+  color: #d4af64;
+  letter-spacing: 0.15em;
+}
+
+.card-glass {
+  background: rgba(17, 26, 46, 0.55);
+  border: 1px solid rgba(212, 175, 100, 0.14);
+  backdrop-filter: blur(10px);
+}
+
+.card-glass:hover {
+  border-color: rgba(212, 175, 100, 0.4);
+}
+
+.noise-overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.035;
+  z-index: 1;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
