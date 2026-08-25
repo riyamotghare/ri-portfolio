@@ -205,45 +205,44 @@ export const projects: Project[] = [
   },
 
   {
-    "slug": "Generate Email Text for Spam Classification",
-    "title": "SMS Spam Classifier with Generative Augmentation",
-    "description": "An NLP-based SMS spam classification pipeline leveraging TF-IDF, machine learning, and T5-based data augmentation.",
-    "problem": "Imbalanced datasets often hinder the accurate detection of minority classes like spam in real-time message streams.",
-    "approach": [
+    slug: "Generate Email Text for Spam Classification",
+    title: "SMS Spam Classifier with Generative Augmentation",
+    description: "An NLP-based SMS spam classification pipeline leveraging TF-IDF, machine learning, and T5-based data augmentation.",
+    problem: "Imbalanced datasets often hinder the accurate detection of minority classes like spam in real-time message streams.",
+    approach: [
       "Extracted text features using TF-IDF on the SMS Spam Collection dataset",
       "Applied T5-based paraphrasing for synthetic spam data augmentation to balance the training distribution",
       "Trained and evaluated classification models, and deployed an interactive Streamlit web application for real-time inference"
     ],
-    "stack": [
+    stack: [
       "Python",
       "NLP",
       "Scikit-Learn",
       "T5 Model",
       "Streamlit"
     ],
-    "outcome": "Achieved a high ROC-AUC score of 0.9929 and deployed an interactive web app for real-time Spam/Ham message classification.",
-    "githubUrl": ": https://github.com/riyamotghare/SMS_Spam_Classifier"
-    "Streamlit app": "https://smsspamclassifier-avyth64thilsylpx5dnybs.streamlit.app/"
+    outcome: "Achieved a high ROC-AUC score of 0.9929 and deployed an interactive web app for real-time Spam/Ham message classification.",
+    githubUrl: "https://github.com/riyamotghare/SMS_Spam_Classifier",
   },
   {
-    "slug": "ANN Based Customer-Churn-Prediction",
-    "title": "Customer Churn Prediction Pipeline",
-    "description": "An end-to-end machine learning system to analyze customer behavior, handle class imbalances, and predict attrition risk.",
-    "problem": "Subscription-based businesses struggle with customer attrition and need proactive threat identification to improve retention.",
-    "approach": [
+    slug: "ANN Based Customer-Churn-Prediction",
+    title: "Customer Churn Prediction Pipeline",
+    description: "An end-to-end machine learning system to analyze customer behavior, handle class imbalances, and predict attrition risk.",
+    problem: "Subscription-based businesses struggle with customer attrition and need proactive threat identification to improve retention.",
+    approach: [
       "Conducted exploratory data analysis (EDA) to uncover patterns across demographics and account characteristics",
       "Engineered features and trained multiple classification models including Logistic Regression, Random Forest, and XGBoost",
       "Evaluated models using key metrics to optimize predictive performance and isolate primary churn drivers"
     ],
-    "stack": [
+    stack: [
       "Python",
       "Pandas",
       "Scikit-Learn",
       "XGBoost",
       "Seaborn"
     ],
-    "outcome": "Identified core business attrition drivers such as contract type and monthly charges to guide data-driven retention strategies.",
-    "githubUrl": "https://github.com/riyamotghare/Week-5---Customer-Churn-Prediction"
+    outcome: "Identified core business attrition drivers such as contract type and monthly charges to guide data-driven retention strategies.",
+    githubUrl: "https://github.com/riyamotghare/Week-5---Customer-Churn-Prediction"
   },
   {
     slug: "blockchain-anti-phishing",
@@ -322,7 +321,12 @@ export const certifications: Certification[] = [
     image: "/certificates/ibm-eda-coursera.png",
     verifyUrl: "https://coursera.org/verify/SWOFG5XNSTXY",
   },
-
+  {
+    title: "Tata - GenAI Powered Data Analytics Job Simulation",
+    issuer: "Forage",
+    date: "July 2026",
+    verifyUrl: "https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_fsT23iLenJz5TB2kC_1785161815537_completion_certificate.pdf",
+  },
   {
     title: "Summer SkillUp — Online Workshop",
     issuer: "GeeksforGeeks",
