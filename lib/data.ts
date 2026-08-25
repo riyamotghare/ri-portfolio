@@ -205,7 +205,7 @@ export const projects: Project[] = [
   },
 
   {
-    slug: "Generate Email Text for Spam Classification",
+    slug: "sms-spam-classifier",
     title: "SMS Spam Classifier with Generative Augmentation",
     description: "An NLP-based SMS spam classification pipeline leveraging TF-IDF, machine learning, and T5-based data augmentation.",
     problem: "Imbalanced datasets often hinder the accurate detection of minority classes like spam in real-time message streams.",
@@ -223,6 +223,8 @@ export const projects: Project[] = [
     ],
     outcome: "Achieved a high ROC-AUC score of 0.9929 and deployed an interactive web app for real-time Spam/Ham message classification.",
     githubUrl: "https://github.com/riyamotghare/SMS_Spam_Classifier",
+    fileUrl: "https://smsspamclassifier-avyth64thilsylpx5dnybs.streamlit.app/",
+    fileLabel: "Live App",
   },
   {
     slug: "ANN Based Customer-Churn-Prediction",
