@@ -7,7 +7,7 @@ export const profile = {
   name: "Riya Motghare",
   role: "Data Science & Machine Learning Enthusiast",
   tagline:
-    "Final year Data Science student building end-to-end ML systems — from CNN-LSTM video surveillance pipelines to transfer learning classifiers and analytics dashboards — with a focus on edge AI and real deployment.",
+"Final-year Data Science student exploring Machine Learning, Data Analytics, and Business Analytics — building practical ML models, SQL-driven analysis, and interactive dashboards with a focus on turning data into actionable insights."
   location: "Mumbai, India",
   email: "riyamotghare27@gmail.com",
   phone: "+91 89288 27763",
@@ -21,12 +21,12 @@ export const profile = {
 export const about = {
   heading: "About Me",
   paragraphs: [
-    "I'm a final year B.Tech Data Science student at Usha Mittal Institute of Technology, Mumbai (Class of 2027), looking for an ML / Data Science internship where I can apply deep learning expertise in real-world settings.",
-    "My work spans the full ML lifecycle — from CNN-LSTM video surveillance pipelines and transfer learning classifiers (MobileNetV2, YOLOv8), to analytics dashboards in Power BI, to SQL-driven fault detection systems. I like projects that go from a raw dataset to something that actually works end-to-end, with a particular interest in edge AI and physical security applications.",
-    "I also completed hands-on training at GNCIPL (Global Next Consulting India Pvt. Ltd.), delivering end-to-end analytics projects and presenting findings to senior mentors — sharpening both my technical depth and my ability to communicate results to non-technical stakeholders.",
+"I'm a final-year B.Tech Data Science student at Usha Mittal Institute of Technology, Mumbai (Class of 2027), interested in Machine Learning, Data Analytics, and Business Analytics, and looking for opportunities to apply my skills to real-world problems."
+"My work spans Machine Learning and Data Analytics — from CNN-LSTM computer vision projects and classification models to SQL-based analysis and interactive dashboards using Power BI and Tableau. I enjoy turning raw data into meaningful insights, visualizations, and data-driven solutions."
+"I also completed hands-on training at GNCIPL (Global Next Consulting India Pvt. Ltd.), where I worked on analytics projects and presented findings, strengthening both my technical skills and ability to communicate data-driven insights clearly."
   ],
   highlights: [
-    { label: "Focus Areas", value: "ML/AI, Computer Vision, Edge AI" },
+    { label: "Focus Areas", value: "ML/AI, Computer Vision, Data Analytics","Data Science" },
     { label: "Status", value: "Final Year Data Science Student" },
     { label: "Graduating", value: "2027" },
     { label: "Based In", value: "Mumbai, India" },
@@ -59,7 +59,7 @@ export const skills = [
   },
   {
     category: "Tools",
-    items: ["Jupyter Notebook", "Google Colab", "VS Code", "GitHub", "Kaggle", "Figma"],
+    items: ["Jupyter Notebook", "Google Colab", "VS Code", "GitHub", "Kaggle", "Figma","Jira"],
   },
 ];
 
@@ -78,23 +78,43 @@ export type Project = {
 };
 
 export const projects: Project[] = [
-  {
-    slug: "sentinel-eye",
-    title: "Sentinel Eye — AI Violence Detection System",
-    description:
-      "A CNN + LSTM based video surveillance pipeline with real-time YOLOv8 object detection and automated alerting.",
-    problem:
-      "Manual monitoring of surveillance footage doesn't scale, and violent incidents are often caught only after the fact.",
-    approach: [
-      "Built a CNN+LSTM pipeline using TimeDistributed Conv2D (32 filters) + LSTM (64 units), extracting 16 frames per video at 64×64 resolution",
-      "Integrated YOLOv8n for real-time object detection on live camera feeds",
-      "Built an automated alert system and a CSV-based detection logging pipeline",
-    ],
-    stack: ["Python", "TensorFlow", "Keras", "OpenCV", "CNN", "LSTM", "YOLOv8"],
-    outcome: "Achieved 100% validation accuracy, with a working live camera-feed module and automated alerting.",
-    githubUrl: "https://github.com/riyamotghare/Sentinel-eye",
-    featured: true,
-  },
+ {
+  slug: "sentinel-eye",
+
+  title: "Sentinel Eye — AI Violence Detection System",
+
+  description:
+    "An end-to-end AI surveillance system combining CNN+LSTM video classification, real-time YOLOv8 object detection, automated alerting, and a Flask + React web application.",
+
+  problem:
+    "Manual monitoring of surveillance footage doesn't scale, and violent incidents are often detected only after the event.",
+
+  approach: [
+    "Built a CNN+LSTM video classification pipeline using TimeDistributed Conv2D (32 filters) and LSTM (64 units), processing 16-frame video sequences at 64×64 resolution",
+    "Integrated YOLOv8n for real-time object detection on live camera feeds",
+    "Developed a Flask backend with a POST /upload API for video-based violence classification, including file validation and training-matched preprocessing",
+    "Built a React 19 + Vite frontend using Axios to communicate with the Flask API",
+    "Implemented automated alerting and a CSV-based detection logging pipeline for detection history and auditing",
+    "Expanded the dataset from the original 11 videos to 350 videos and developed a working live camera-feed module"
+  ],
+  stack: [
+    "Python",
+    "TensorFlow",
+    "Keras",
+    "OpenCV",
+    "CNN",
+    "LSTM",
+    "YOLOv8",
+    "Flask",
+    "React",
+    "Vite",
+    "Axios"
+  ],
+  outcome:
+    "Achieved 100% validation accuracy on the original 11-video dataset, expanded the dataset to 350 videos, and developed a working full-stack system with live camera detection and automated alerting.",
+  githubUrl: "https://github.com/riyamotghare/Sentinel-eye",
+  featured: true,
+},
   {
     slug: "hr-analytics-dashboard",
     title: "HR Analytics Dashboard",
@@ -130,22 +150,35 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/riyamotghare/DDoS-Attack-Volume-Analysis",
     featured: true,
   },
-  {
-    slug: "equipment-monitoring-sql",
-    title: "Equipment Monitoring & Fault Detection Dashboard",
-    description:
-      "A SQL-driven dashboard project for monitoring equipment health and flagging anomalies.",
-    problem:
-      "Maintenance teams need a lightweight, query-based way to spot equipment anomalies without a full BI stack.",
-    approach: [
-      "Designing a MySQL database to store equipment logs, sensor readings, and maintenance records",
-      "Building SQL queries and reporting views to identify equipment faults",
-      "Visualizing maintenance trends through structured views",
-    ],
-    stack: ["MySQL", "SQL", "MySQL Workbench"],
-    outcome: "Building a fully query-driven fault detection and maintenance-trend reporting layer.",
-    githubUrl: "https://github.com/riyamotghare",
-  },
+ {
+  slug: "sales-insights",
+  title: "Sales Insights — Data Analytics & Business Intelligence",
+  description:
+    "An end-to-end sales analytics project for AtliQ Hardware, using MySQL for data cleaning and analysis and Tableau to build an interactive business intelligence dashboard.",
+  problem:
+    "AtliQ Hardware struggled with fragmented sales data and limited visibility into revenue, customer performance, product trends, and regional sales, making timely business decisions difficult.",
+
+  approach: [
+    "Explored and understood transactional sales data covering customers, products, markets, transactions, and dates",
+    "Used MySQL to clean, validate, and analyze the data, handling inconsistent currencies, missing values, and invalid sales records",
+    "Performed SQL-based analysis to identify revenue trends, top customers, product performance, and market-wise sales",
+    "Built an interactive Tableau dashboard to visualize revenue, sales trends, customer performance, and regional/market insights",
+    "Designed the dashboard to help business stakeholders move from manual reporting to data-driven decision-making"
+  ],
+  stack: [
+    "MySQL",
+    "SQL",
+    "Tableau",
+    "Excel",
+    "Data Cleaning",
+    "Data Analysis",
+    "Business Intelligence"
+  ],
+  outcome:
+    "Developed an interactive sales insights dashboard that enables stakeholders to analyze revenue trends, market performance, top customers, and product performance for faster data-driven decision-making.",
+  githubUrl: "YOUR_GITHUB_REPOSITORY_URL",
+  featured: true,
+},
   {
     slug: "data-breaches-analysis",
     title: "Data Breaches Analysis by Industry",
@@ -191,17 +224,17 @@ export const experience = [
     ],
   },
   {
-    org: "Usha Mittal Institute of Technology, Mumbai",
-    role: "Major Project — Sentinel Eye (AI Violence Detection)",
-    period: "2025 — 2026",
-    points: [
-      "Led model architecture design for a CNN+LSTM violence detection system with integrated YOLOv8 object detection",
-      "Built a live camera-feed module, automated alert system, and CSV-based detection logging pipeline",
-      "Presented findings via a fully designed technical presentation deck",
-    ],
-  },
-];
-
+  org: "Usha Mittal Institute of Technology, Mumbai",
+  role: "Major Project — Sentinel Eye (AI Violence Detection System)",
+  period: "2025 — 2026",
+  points: [
+    "Developed a CNN+LSTM video classification pipeline using 16-frame sequences with TimeDistributed Conv2D and LSTM-based temporal modeling",
+    "Integrated YOLOv8n for real-time object detection on live camera feeds with automated alerts and CSV-based detection logging",
+    "Built a full-stack application with a Flask backend, REST API, and React + Vite frontend for video upload and model inference",
+    "Expanded the dataset from 11 to 350 videos and achieved 100% validation accuracy on the original dataset",
+    "Presented the system architecture, methodology, results, and deployment through a technical presentation",
+  ],
+},
 export const education = [
   {
     institution: "Usha Mittal Institute of Technology, Mumbai",
@@ -254,12 +287,11 @@ export const achievements = [
     description:
       "Built end-to-end projects spanning deep learning, computer vision, BI dashboarding, cybersecurity analytics, and blockchain-based security.",
   },
-  {
-    title: "Sports Council Creative Team, UMIT",
-    description:
-      "Active member of the Sports Council Creative Team at Usha Mittal Institute of Technology (2024–2025).",
-  },
-];
+{
+  title: "Creative Team Member — Sports Council, UMIT",
+  description:
+    "Supported the Sports Council's 2024–25 campaigns through social media design, promotional artwork, event videography, and on-ground event coordination, contributing to the visual communication and execution of campus sports events.",
+},
 
 export const socials = [
   { label: "GitHub", href: profile.github, icon: "github" },
