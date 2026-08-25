@@ -205,53 +205,46 @@ export const projects: Project[] = [
   },
 
   {
-    slug: "ddos-attack-analysis",
-    title: "DDoS Attack Volume Analysis",
-    description:
-      "Large-scale EDA on network-flow data from CIC-IDS2018, covering attack-volume trends and protocol breakdowns.",
-    problem:
-      "Understanding attack volume and traffic signatures to inform intrusion detection strategy.",
-    approach: [
-      "Analyzed 1M+ network-flow records from the CIC-IDS2018 dataset",
-      "Delivered EDA covering attack-volume trends, protocol breakdowns, and outlier detection across multiple DDoS vectors",
-      "Built a modular OOP Python script with automated chart exports",
+    "slug": "Generate Email Text for Spam Classification",
+    "title": "SMS Spam Classifier with Generative Augmentation",
+    "description": "An NLP-based SMS spam classification pipeline leveraging TF-IDF, machine learning, and T5-based data augmentation.",
+    "problem": "Imbalanced datasets often hinder the accurate detection of minority classes like spam in real-time message streams.",
+    "approach": [
+      "Extracted text features using TF-IDF on the SMS Spam Collection dataset",
+      "Applied T5-based paraphrasing for synthetic spam data augmentation to balance the training distribution",
+      "Trained and evaluated classification models, and deployed an interactive Streamlit web application for real-time inference"
     ],
-    stack: [
+    "stack": [
       "Python",
-      "Pandas",
-      "Matplotlib",
-      "Scikit-learn",
+      "NLP",
+      "Scikit-Learn",
+      "T5 Model",
+      "Streamlit"
     ],
-    outcome:
-      "Identified traffic-volume signatures across multiple attack vectors with a fully automated reporting script.",
-    githubUrl:
-      "https://github.com/riyamotghare/DDoS-Attack-Volume-Analysis",
-    featured: true,
+    "outcome": "Achieved a high ROC-AUC score of 0.9929 and deployed an interactive web app for real-time Spam/Ham message classification.",
+    "githubUrl": ": https://github.com/riyamotghare/SMS_Spam_Classifier"
+    "Streamlit app": "https://smsspamclassifier-avyth64thilsylpx5dnybs.streamlit.app/"
   },
-
   {
-    slug: "data-breaches-analysis",
-    title: "Data Breaches Analysis by Industry",
-    description:
-      "EDA on a breach dataset spanning 2004–2022, identifying high-exposure sectors and breach-type trends.",
-    problem:
-      "Making sense of historical data breach records to surface sector-level trends.",
-    approach: [
-      "Ran EDA on a 352-row breach dataset from 2004–2022",
-      "Identified high-exposure sectors and breach-type trends",
-      "Built a structured OOP architecture with Matplotlib-based visualizations",
+    "slug": "ANN Based Customer-Churn-Prediction",
+    "title": "Customer Churn Prediction Pipeline",
+    "description": "An end-to-end machine learning system to analyze customer behavior, handle class imbalances, and predict attrition risk.",
+    "problem": "Subscription-based businesses struggle with customer attrition and need proactive threat identification to improve retention.",
+    "approach": [
+      "Conducted exploratory data analysis (EDA) to uncover patterns across demographics and account characteristics",
+      "Engineered features and trained multiple classification models including Logistic Regression, Random Forest, and XGBoost",
+      "Evaluated models using key metrics to optimize predictive performance and isolate primary churn drivers"
     ],
-    stack: [
+    "stack": [
       "Python",
       "Pandas",
-      "Matplotlib",
-      "OOP",
+      "Scikit-Learn",
+      "XGBoost",
+      "Seaborn"
     ],
-    outcome:
-      "Built an end-to-end analysis project that strengthened data exploration, visualization, and analytical problem-solving skills.",
-    featured: true,
+    "outcome": "Identified core business attrition drivers such as contract type and monthly charges to guide data-driven retention strategies.",
+    "githubUrl": "https://github.com/riyamotghare/Week-5---Customer-Churn-Prediction"
   },
-
   {
     slug: "blockchain-anti-phishing",
     title: "Blockchain Anti-Phishing System",
