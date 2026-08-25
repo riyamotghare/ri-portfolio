@@ -327,7 +327,7 @@ export const certifications: Certification[] = [
     title: "Tata - GenAI Powered Data Analytics Job Simulation",
     issuer: "Forage",
     date: "July 2026",
-    image: "/certificates/GEN AI for Data Analytics Cerf.pdf",
+    image: "/certificates/Screenshot 2026-08-26 005558.png",
     verifyUrl: "https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_fsT23iLenJz5TB2kC_1785161815537_completion_certificate.pdf",
   },
   {
