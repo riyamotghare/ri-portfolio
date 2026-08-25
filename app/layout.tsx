@@ -26,10 +26,12 @@ export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: "Riya Motghare — Data Science & Machine Learning",
   description:
-    "Portfolio of Riya Motghare, a Data Science student building end-to-end ML systems — from clustering pipelines to deep learning and computer vision projects.",
+    "Portfolio of Riya Motghare, a Data Science student Portfolio of Riya Motghare, a Data Science student exploring Machine Learning, Data Analytics, and Business Analytics — turning data into insights, intelligent solutions, and data-driven decisions.",
   keywords: [
     "Riya Motghare",
     "Data Science Portfolio",
+    "Data Analytics",
+    "Business Analyst",
     "Machine Learning Engineer",
     "Computer Vision",
     "ML Projects",
@@ -39,7 +41,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Riya Motghare — Data Science & Machine Learning",
     description:
-      "Portfolio of Riya Motghare, a Data Science student building end-to-end ML systems.",
+      "Portfolio of Riya Motghare, a Data Science studentturning data into meaningful insights and smarter decisions.",
     url: siteUrl,
     siteName: "Riya Motghare",
     type: "website",
