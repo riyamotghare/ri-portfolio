@@ -7,7 +7,7 @@ export const profile = {
   name: "Riya Motghare",
   role: "Data Science & Machine Learning Enthusiast",
   tagline:
-    "Final-year Data Science student exploring Machine Learning, Data Analytics, and Business Analytics — building practical ML models, SQL-driven analysis, and interactive dashboards with a focus on turning data into actionable insights.",
+    "Final-year Data Science student exploring Data Engineering Machine Learning, Data Analytics, and Business Analytics — building practical ML models, SQL-driven analysis, and interactive dashboards with a focus on turning data into actionable insights.",
   location: "Mumbai, India",
   email: "riyamotghare27@gmail.com",
   phone: "+91 89288 27763",
@@ -29,7 +29,7 @@ export const about = {
   highlights: [
     {
       label: "Focus Areas",
-      value: "ML/AI, Computer Vision, Data Science, Data Analytics",
+      value: "ML/AI,Data Engineering, Computer Vision, Data Science, Data Analytics",
     },
     {
       label: "Status",
@@ -91,6 +91,30 @@ export const skills = [
       "HTML/CSS",
     ],
   },
+  {
+    category: "Tools",
+    items: [
+      "Jupyter Notebook",
+      "Google Colab",
+      "VS Code",
+      "GitHub",
+      "Kaggle",
+      "Figma",
+      "Jira",
+    ],
+  },
+  {
+  category: "Cloud & Data Engineering",
+  items: [
+    "Cloud Computing",
+    "AWS",
+    "Virtualization",
+    "Cloud APIs",
+    "IaaS, PaaS & SaaS",
+    "Public, Private & Hybrid Cloud",
+    "Data Engineering",
+  ],
+},
   {
     category: "Tools",
     items: [
@@ -334,7 +358,7 @@ export const certifications: Certification[] = [
     title: "Exploring Cloud Computing",
     issuer: "IBM SkillBuild",
     date: "Sept 2026",
-    image: "public/certificates/Cloud Computing Fundamentals.jpeg",
+    image: "/certificates/Cloud Computing Fundamentals.jpeg",
     verifyUrl: "https://skills.yourlearning.ibm.com/certificate/share/254246a6d1ewogICJsZWFybmVyQ05VTSIgOiAiODg1ODMzOVJFRyIsCiAgIm9iamVjdFR5cGUiIDogIkFDVElWSVRZIiwKICAib2JqZWN0SWQiIDogIkFMTS1DT1VSU0VfMzgyNTI0OSIKfQ791d5cb062-10",
   },
   {
