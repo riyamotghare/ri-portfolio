@@ -334,7 +334,7 @@ export const certifications: Certification[] = [
     title: "Exploring Cloud Computing",
     issuer: "IBM SkillBuild",
     date: "Sept 2026",
-    image: "/certificates/Cloud Computing fundamentals.jpeg",
+    image: "public/certificates/Cloud Computing Fundamentals.jpeg",
     verifyUrl: "https://skills.yourlearning.ibm.com/certificate/share/254246a6d1ewogICJsZWFybmVyQ05VTSIgOiAiODg1ODMzOVJFRyIsCiAgIm9iamVjdFR5cGUiIDogIkFDVElWSVRZIiwKICAib2JqZWN0SWQiIDogIkFMTS1DT1VSU0VfMzgyNTI0OSIKfQ791d5cb062-10",
   },
   {
