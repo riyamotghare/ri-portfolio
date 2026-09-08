@@ -331,6 +331,13 @@ export const certifications: Certification[] = [
     verifyUrl: "https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_fsT23iLenJz5TB2kC_1785161815537_completion_certificate.pdf",
   },
   {
+    title: "Exploring Cloud Computing",
+    issuer: "IBM SkillBuild",
+    date: "Sept 2026",
+    image: "/certificates/Cloud Computing fundamentals.jpeg",
+    verifyUrl: "https://skills.yourlearning.ibm.com/certificate/share/254246a6d1ewogICJsZWFybmVyQ05VTSIgOiAiODg1ODMzOVJFRyIsCiAgIm9iamVjdFR5cGUiIDogIkFDVElWSVRZIiwKICAib2JqZWN0SWQiIDogIkFMTS1DT1VSU0VfMzgyNTI0OSIKfQ791d5cb062-10",
+  },
+  {
     title: "Summer SkillUp — Online Workshop",
     issuer: "GeeksforGeeks",
     date: "2026",
