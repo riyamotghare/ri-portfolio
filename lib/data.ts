@@ -83,6 +83,19 @@ export const skills = [
     ],
   },
   {
+  category: "Statistics",
+  items: [
+    "Descriptive Statistics",
+    "Inferential Statistics",
+    "Probability Distributions",
+    "Hypothesis Testing",
+    "Correlation and Regression",
+    "Sampling Techniques",
+    "Measures of Central Tendency and Dispersion",
+    "Z-Score and Standardization",
+  ],
+},
+  {
     category: "Programming",
     items: [
       "Python",
