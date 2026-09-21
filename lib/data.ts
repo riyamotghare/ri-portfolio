@@ -178,56 +178,36 @@ export const projects: Project[] = [
     featured: true,
   },
 
-  {
-    slug: "hr-analytics-dashboard",
-    title: "HR Analytics Dashboard",
+    {
+    slug: "it-support-system-health",
+    title: "IT Support & System Health Monitoring Tool",
     description:
-      "An interactive Power BI dashboard analyzing employee attrition, workforce demographics, and performance metrics.",
+      "A Streamlit-based IT support application for monitoring system resources, performing basic network diagnostics, and managing support tickets through a persistent SQLite database.",
     problem:
-      "HR teams need a clear, interactive view of attrition drivers and workforce trends to make informed retention decisions.",
+      "IT support teams need a simple way to monitor system health, identify resource usage issues, perform basic connectivity checks, and track technical support requests.",
     approach: [
-      "Cleaned and transformed raw HR data using Power Query",
-      "Built DAX measures for KPI calculations including attrition rate, headcount trends, and performance metrics",
-      "Designed interactive Power BI visuals for demographics, attrition, and performance analysis",
-    ],
-    stack: ["Power BI", "Power Query", "DAX", "Excel"],
-    outcome:
-      "Delivered a fully interactive dashboard surfacing key attrition and workforce insights at a glance.",
-    githubUrl:
-      "https://github.com/riyamotghare/hr-analytical-dashboard",
-    fileUrl: "/files/hr_analytics_dashboard.pbix",
-    fileLabel: "Download .pbix",
-    featured: true,
-  },
-
-  {
-    slug: "sales-insights",
-    title: "Sales Insights — Data Analytics & Business Intelligence",
-    description:
-      "An end-to-end sales analytics project for AtliQ Hardware, using MySQL for data cleaning and analysis and Tableau to build an interactive business intelligence dashboard.",
-    problem:
-      "AtliQ Hardware struggled with fragmented sales data and limited visibility into revenue, customer performance, product trends, and regional sales, making timely business decisions difficult.",
-    approach: [
-      "Explored and understood transactional sales data covering customers, products, markets, transactions, and dates",
-      "Used MySQL to clean, validate, and analyze the data, handling inconsistent currencies, missing values, and invalid sales records",
-      "Performed SQL-based analysis to identify revenue trends, top customers, product performance, and market-wise sales",
-      "Built an interactive Tableau dashboard to visualize revenue, sales trends, customer performance, and regional and market insights",
-      "Designed the dashboard to help business stakeholders move from manual reporting to data-driven decision-making",
+      "Built a Streamlit dashboard to display CPU, RAM, disk usage, and system information using psutil",
+      "Implemented configurable resource thresholds to identify high system resource usage and display warnings",
+      "Integrated basic network diagnostics using the system ping command, with input validation and handling for unavailable ping utilities",
+      "Developed a support ticket management module to create, filter, and update tickets with priority and status information",
+      "Used SQLite with parameterized queries to store and manage support tickets persistently",
+      "Tested system monitoring, threshold warnings, ticket creation, status updates, filtering, and database persistence",
     ],
     stack: [
-      "MySQL",
-      "SQL",
-      "Tableau",
-      "Excel",
-      "Data Cleaning",
-      "Data Analysis",
-      "Business Intelligence",
+      "Python",
+      "Streamlit",
+      "psutil",
+      "SQLite",
+      "System Monitoring",
+      "Basic Networking",
     ],
     outcome:
-      "Developed an interactive sales insights dashboard that enables stakeholders to analyze revenue trends, market performance, top customers, and product performance for faster data-driven decision-making.",
-    featured: true,
+      "Developed an interactive IT support dashboard combining system health monitoring, basic network diagnostics, and persistent support ticket management.",
+    githubUrl:
+      "https://github.com/riyamotghare/System-Heath-Monitoring-tool",
+    fileUrl: "https://system-heath-monitoring-tool-mks9u7fstaljmgwrhp4wkr.streamlit.app/",
+    fileLabel: "Live App",  
   },
-
   {
     slug: "sms-spam-classifier",
     title: "SMS Spam Classifier with Generative Augmentation",
@@ -250,6 +230,28 @@ export const projects: Project[] = [
     fileUrl: "https://smsspamclassifier-avyth64thilsylpx5dnybs.streamlit.app/",
     fileLabel: "Live App",
   },
+  {
+    slug: "hr-analytics-dashboard",
+    title: "HR Analytics Dashboard",
+    description:
+      "An interactive Power BI dashboard analyzing employee attrition, workforce demographics, and performance metrics.",
+    problem:
+      "HR teams need a clear, interactive view of attrition drivers and workforce trends to make informed retention decisions.",
+    approach: [
+      "Cleaned and transformed raw HR data using Power Query",
+      "Built DAX measures for KPI calculations including attrition rate, headcount trends, and performance metrics",
+      "Designed interactive Power BI visuals for demographics, attrition, and performance analysis",
+    ],
+    stack: ["Power BI", "Power Query", "DAX", "Excel"],
+    outcome:
+      "Delivered a fully interactive dashboard surfacing key attrition and workforce insights at a glance.",
+    githubUrl:
+      "https://github.com/riyamotghare/hr-analytical-dashboard",
+    fileUrl: "/files/hr_analytics_dashboard.pbix",
+    fileLabel: "Download .pbix",
+    featured: true,
+  },
+
   {
     slug: "ANN Based Customer-Churn-Prediction",
     title: "Customer Churn Prediction Pipeline",
