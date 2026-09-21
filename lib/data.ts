@@ -343,40 +343,40 @@ export type Certification = {
 
 export const certifications: Certification[] = [
   {
-    title: "Exploratory Data Analysis for Machine Learning",
-    issuer: "IBM via Coursera",
-    date: "March 2025",
-    image: "/certificates/ibm-eda-coursera.png",
-    verifyUrl: "https://coursera.org/verify/SWOFG5XNSTXY",
-  },
-  {
-    title: "Tata - GenAI Powered Data Analytics Job Simulation",
-    issuer: "Forage",
-    date: "July 2026",
-    image: "/certificates/Screenshot 2026-08-26 005558.png",
-    verifyUrl: "https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_fsT23iLenJz5TB2kC_1785161815537_completion_certificate.pdf",
-  },
-  {
-    title: "Exploring Cloud Computing",
-    issuer: "IBM SkillBuild",
-    date: "Sept 2026",
-    image: "/certificates/Cloud Computing Fundamentals.jpeg",
-    verifyUrl: "https://skills.yourlearning.ibm.com/certificate/share/254246a6d1ewogICJsZWFybmVyQ05VTSIgOiAiODg1ODMzOVJFRyIsCiAgIm9iamVjdFR5cGUiIDogIkFDVElWSVRZIiwKICAib2JqZWN0SWQiIDogIkFMTS1DT1VSU0VfMzgyNTI0OSIKfQ791d5cb062-10",
-  },
-  {
-    title: "Summer SkillUp — Online Workshop",
-    issuer: "GeeksforGeeks",
-    date: "2026",
-    image: "/certificates/gfg-summer-skillup.png",
-  },
-
-  {
-    title: "Live Workshop: Build Your Own AI-Powered Chatbot in 60 Mins",
-    issuer: "Simplilearn",
-    date: "November 5, 2025",
-    image: "/certificates/simplilearn-ai-chatbot.png",
-    file: "/certificates/simplilearn-ai-chatbot.pdf",
-  },
+  title: "Exploratory Data Analysis for Machine Learning",
+  issuer: "IBM via Coursera",
+  date: "March 2025",
+  image: "/certificates/ibm-eda-coursera.png",
+  verifyUrl: "https://coursera.org/verify/SWOFG5XNSTXY",
+},
+{
+  title: "Tata - GenAI Powered Data Analytics Job Simulation",
+  issuer: "Forage",
+  date: "July 2026",
+  image: "/certificates/Screenshot 2026-08-26 005558.png",
+  verifyUrl: "https://www.theforage.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_fsT23iLenJz5TB2kC_1785161815537_completion_certificate.pdf",
+},
+{
+  title: "Exploring Cloud Computing",
+  issuer: "IBM SkillBuild",
+  date: "Sept 2026",
+  image: "/certificates/Cloud Computing Fundamentals.jpeg",
+  verifyUrl: "https://skills.yourlearning.ibm.com/certificate/share/254246a6d1ewogICJsZWFybmVyQ05VTSIgOiAiODg1ODMzOVJFRyIsCiAgIm9iamVjdFR5cGUiIDogIkFDVElWSVRZIiwKICAib2JqZWN0SWQiIDogIkFMTS1DT1VSU0VfMzgyNTI0OSIKfQ791d5cb062-10",
+},
+{
+  title: "Completion Certificate - Professional Industrial Internship Program (PIIP)-2026",
+  issuer: "Global Next Consulting India Private Limited",
+  date: "2026",
+  image: "/certificates/Completion%20Certificate%20-%20Professional%20Industrial%20Internship%20Program%20(PIIP)-2026%20.jpeg",
+  
+},
+{
+  title: "Introduction to Retrieval-Augmented Generation Concepts",
+  issuer: "Microsoft Ignite",
+  date: "2026",
+  image: "/certificates/Introduction To Rag .png",
+  verifyUrl: "https://learn.microsoft.com/en-us/users/riyamotghare-1480/achievements/d3v9u4rj?ref=https%3A%2F%2Fwww.linkedin.com%2F",
+},
 ];
 
 export const achievements = [
