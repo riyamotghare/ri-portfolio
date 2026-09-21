@@ -13,7 +13,7 @@ export const profile = {
   phone: "+91 89288 27763",
   linkedin: "https://linkedin.com/in/riya-motghare-053b4a301",
   github: "https://github.com/riyamotghare",
-  resumeUrl: "/resume/Riya_Motghare_Resume.pdf",
+  resumeUrl: "public/resume/Resume (1).pdf",
   avatar: "/images/profile.jpg",
   availability:
     "Open to Data Science, ML/AI & Computer Vision roles — Final Year, Batch of 2027",
