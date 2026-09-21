@@ -100,6 +100,7 @@ export const skills = [
     items: [
       "Python",
       "PostgreSQL",
+      "Java",
       "Basic R",
       "HTML/CSS",
     ],
